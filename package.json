@@ -1,0 +1,13 @@
+{
+  "name": "atari-asteroids-clone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "serve": "python3 -m http.server 5173"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
